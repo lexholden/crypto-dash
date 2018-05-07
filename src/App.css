@@ -1,0 +1,58 @@
+/* You can add additional styles here */
+
+.card.crypto-card {
+  max-width: 200px;
+  width: 180px;
+  height: 180px;
+  margin: auto;
+  text-align: center;
+  padding: 34px 6px;
+  margin: 6px;
+  overflow: hidden;
+  transition: all .4s ease-in-out;
+  /* width: 145px; */
+}
+
+.card.crypto-card.expanded {
+  /* height: 300px; */
+  padding: 20px 6px;
+  /* width: 180px */
+}
+
+.card .delete {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+ul.grid {
+  width: 100%;
+  display: block;
+}
+
+ul.grid.is-center {
+  text-align: center;
+}
+
+ul.grid li {
+  margin: auto;
+  display: inline-block;
+}
+
+article.card {
+  width: 200px;
+  margin: 12px;
+}
+
+article .article-body {
+  text-align: left;
+  padding: 0 6px;
+  max-height: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+article.card a {
+  color: #666;
+}
